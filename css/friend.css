@@ -29,6 +29,15 @@
   font-weight: 600;
   margin-bottom: 5px;
 }
+.friend__column {
+  position: relative;
+}
+.incoming-chat .friend__name-incoming {
+  position: relative;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
 .friend .chat__timestamp {

@@ -110,6 +110,39 @@
   text-transform: uppercase;
   font-weight: 700;
 }
+.incoming-chat .message-badge {
+  position: absolute;
+  right: 200px;
+  top: -5px;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+}
+@keyframes blinkChatroom {
+  0% {
+    transform: translateX(3px);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateX(-3px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(3px);
+    opacity: 0.6;
+  }
+}
+.incoming-chat {
+  animation: blinkChatroom 0.5s ease-in-out infinite;
+}
+.chatroom {
+  cursor: pointer;
+}
 .message {
   display: flex;
   align-items: flex-start;
