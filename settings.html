@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/85c68db90a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -18,15 +19,15 @@
         <i class="far fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <span class="status-bar__bettery-level">25%</span>
+        <span class="status-bar__battery-level">25%</span>
         <i class="fas fa-battery-quarter"></i>
       </div>
     </div>
 
     <header class="header">
       <div class="header__header-column">
-        <a href="more.html">
-          <i class="fas fa-arrow-left fa-2x"></i>
+        <a href="more.html" class="header__back-btn">
+          <i class="fas fa-arrow-left fa"></i>
         </a>
         <h1 class="header__title">Settings</h1>
       </div>
@@ -40,19 +41,88 @@
       <section class="settings__sections">
         <ul class="settings__list">
           <li class="settings__setting">
-            <span class="settings__icon"> <i class="fas fa-lock"></i> </span
-            ><span class="settings__title">Privacy</span>
+            <div class="setting__column">
+              <div class="settings__icon"><i class="far fa-bell"></i></div>
+            </div>
+            <div class="setting__column">
+              <span class="settings__title">Notification</span>
+            </div>
           </li>
           <li class="settings__setting">
-            <span class="settings__icon"> <i class="far fa-bell"></i></span
-            ><span class="settings__title">Notification</span>
+            <div class="setting__column">
+              <div class="settings__icon"><i class="fas fa-lock"></i></div>
+            </div>
+            <div class="setting__column">
+              <span class="settings__title">Privacy</span>
+            </div>
           </li>
           <li class="settings__setting">
-            <span class="settings__icon"><i class="far fa-user"></i></span
-            ><span class="settings__title">Friends</span>
+            <div class="setting__column">
+              <div class="settings__icon"><i class="far fa-user"></i></div>
+            </div>
+            <div class="setting__column">
+              <span class="settings__title">Friends</span>
+            </div>
+          </li>
+          <li class="settings__setting">
+            <div class="setting__column">
+              <div class="settings__icon"><i class="fas fa-phone"></i></div>
+            </div>
+            <div class="setting__column">
+              <span class="settings__title">Call</span>
+            </div>
+          </li>
+          <li class="settings__setting">
+            <div class="setting__column">
+              <div class="settings__icon"><i class="far fa-comment"></i></div>
+            </div>
+            <div class="setting__column">
+              <span class="settings__title">Chat</span>
+            </div>
+          </li>
+          <li class="settings__setting">
+            <div class="setting__column">
+              <div class="settings__icon"><i class="far fa-star"></i></div>
+            </div>
+            <div class="setting__column">
+              <span class="settings__title">Game Star</span>
+            </div>
+          </li>
+          <li class="settings__setting">
+            <div class="setting__column">
+              <div class="settings__icon">
+                <i class="fas fa-flask"></i>
+              </div>
+            </div>
+            <div class="setting__column">
+              <span class="settings__title">Laboratory</span>
+            </div>
+          </li>
+          <li class="settings__setting">
+            <div class="setting__column">
+              <div class="settings__icon">
+                <i class="fas fa-exclamation-circle"></i>
+              </div>
+            </div>
+            <div class="setting__column">
+              <span class="settings__title">Version</span>
+            </div>
+          </li>
+          <li class="settings__setting">
+            <div class="setting__column">
+              <div class="settings__icon">
+                <i class="fas fa-question-circle"></i>
+              </div>
+            </div>
+            <div class="setting__column">
+              <span class="settings__title">Help</span>
+            </div>
           </li>
         </ul>
       </section>
     </main>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
