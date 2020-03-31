@@ -72,7 +72,7 @@
   animation: blinkChat 1s infinite;
 }
 .chat__icon-left {
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transition: opacity 0.3s ease-in-out, transform 0.5s ease-in-out;
 }
 .chat__write:focus ~ .chat__icon-left {
   transform: translateY(-100px) translateX(55px);
