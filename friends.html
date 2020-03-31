@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/85c68db90a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -18,7 +19,7 @@
         <i class="far fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <span class="status-bar__bettery-level">25%</span>
+        <span class="status-bar__battery-level">25%</span>
         <i class="fas fa-battery-quarter"></i>
       </div>
     </div>
@@ -40,7 +41,7 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img src="images/olaf.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -58,7 +59,7 @@
         <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/olaf.jpg" class="g-avatar friend__avatar" />
+            <img src="images/olaf.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -71,7 +72,7 @@
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/olaf.jpg" class="g-avatar friend__avatar" />
+            <img src="images/olaf.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Jiwoo
@@ -84,7 +85,42 @@
           <div class="friend__column">
             <span class="friend__now-listening">
               <span>
-                FTISLAND(feat. Ilkyun)
+                This is war - FTISLAND (feat. Ilkyun)
+              </span>
+              <i class="far fa-play-circle"></i>
+            </span>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/olaf.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Chunsoo
+              </span>
+              <span class="friend__status">
+                What a wonderful world!
+              </span>
+            </div>
+          </div>
+          <div class="friend__column"></div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/olaf.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Dongkyu
+              </span>
+              <span class="friend__status">
+                Seek and hide!
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <span class="friend__now-listening">
+              <span>
+                5th exit - YSS (feat. Ilkyun)
               </span>
               <i class="far fa-play-circle"></i>
             </span>
@@ -101,6 +137,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comments"></i>
           </a>
         </li>
@@ -116,5 +153,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
