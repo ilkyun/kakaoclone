@@ -1,0 +1,35 @@
+.settings {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 30px;
+}
+
+.settings .settings__sections {
+  padding: 30px 0px;
+}
+
+.settings__setting .settings__icon {
+  font-size: 20px;
+  margin-right: 20px;
+  width: 20px;
+  text-align: center;
+}
+.settings__setting .settings__title {
+  font-size: 22px;
+  font-weight: 300;
+}
+.settings .settings__setting {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.settings .settings__setting:nth-child(6) {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.settings .settings__setting:last-child {
+  margin-bottom: 0;
+}
