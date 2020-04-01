@@ -62,4 +62,8 @@
   font-size: 30px;
   top: -2px;
   right: 7px;
+  cursor: pointer;
+}
+.more__header .friend__column i {
+  cursor: pointer;
 }
